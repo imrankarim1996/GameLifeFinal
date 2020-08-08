@@ -567,3 +567,4 @@ button:hover{
    text-decoration: none;
    font-size: 30px ;
  }
+.pagination a:hover {background-color: #ddd;}
