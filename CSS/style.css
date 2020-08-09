@@ -259,7 +259,7 @@ table {
 
     width:  200px;
    height: 200px;
-   object-fit: cover;
+   /* object-fit: cover; */
 
   }
 
@@ -542,7 +542,7 @@ button:hover{
   padding: 10px;
 }
 #nameid-input{
-  
+
   margin-top: 10px;
 }
 /*debug*/
@@ -568,3 +568,10 @@ button:hover{
    font-size: 30px ;
  }
 .pagination a:hover {background-color: #ddd;}
+
+
+#labalTxtArea , #labalEmail {
+
+  color: red ;
+  font-weight: bold ;
+}
