@@ -583,3 +583,9 @@ body{
     transition: .3s;
     cursor: pointer;
 }
+
+#labalTxtArea , #labalEmail {
+
+  color: red ;
+  font-weight: bold ;
+}
