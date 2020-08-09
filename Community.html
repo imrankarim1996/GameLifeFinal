@@ -33,23 +33,27 @@
           <div class="post">
               <form  onsubmit = "return submitpost()">
                 <label for="name" id="nameid" style="text-align: center;" >Name</label>
-                <input style="width: 80%;" type="text" name="name" id="nameid-input" class="text-input contact-input" placeholder="Your name...">
+                <input style="width: 80%;" type="text" name="name" id="nameid-input" class="text-input contact-input" placeholder="Your name..."  required>
                 <br>
                 <label for="name" id="nameid" >Title</label>
-                <input style="width: 80%;"type="text" name="name" id="nameid-input" class="text-input contact-input" placeholder="Your title...">
+                <input style="width: 80%;"type="text" name="name" id="nameid-input" class="text-input contact-input" placeholder="Your title..."  required>
                 <br><label for="name" id="nameid" >Your content</label>
-                <input style="width: 80%;"type="text" name="name" id="nameid-input" class="text-input contact-input" placeholder="Your content...">
+                <input style="width: 80%;"type="text" name="name" id="nameid-input" class="text-input contact-input" placeholder="Your content..."  required>
                 <br><label style="width: 80%;"for="name" id="nameid" >Date</label>
                 <label for="name" id="nameid" ></label>
-                <input style="width: 80%;"type="date" name="name" id="nameid-input" class="text-input contact-input" placeholder="Date">
+                <input style="width: 80%;"type="date" name="name" id="nameid-input" class="text-input contact-input" placeholder="Date"  required>
                 <br><label for="name" id="nameid" >Profile picture</label>
-                <input style="width: 80%;"type="file" name="name" id="nameid-input" class="text-input contact-input" placeholder="Your name...">
-                
-              
+                <input style="width: 80%;"type="file" name="name" id="nameid-input" class="text-input contact-input" placeholder="Your name..."  required>
+
+                <button type="submit" class="btn btn-big contact-btn">
+                  <i class="fa fa-envelope"></i>
+                  Send</button>
+
+
           </form>
-          <button onclick="submitpost()" class="btn btn-big contact-btn">
-            <i class="fa fa-envelope"></i>
-            Send</button>
+
+
+
           </div>
         </table>
 
@@ -160,11 +164,11 @@
       <h2>Group Members</h2>
       <br>
       <ul>
-        <a href="#"><li>Imran</li></a>
-        <a href="#"><li>Usman</li></a>
-        <a href="#"><li>Aiman</li></a>
-        <a href="#"><li>Nazmi</li></a>
-        <a href="#"><li>Asdaq</li></a>
+        <a ><li>Imran</li></a>
+        <a ><li>Usman</li></a>
+        <a ><li>Aiman</li></a>
+        <a ><li>Nazmi</li></a>
+        <a ><li>Asdaq</li></a>
 
       </ul>
     </div>
@@ -203,9 +207,8 @@
     <script src="scripts/javascript.js">
 
     </script>
-    <script src="scripts/test.js">
 
-    </script>
+    <script src="scripts/javascript form validation.js" > </script>
 
   </body>
 </html>
